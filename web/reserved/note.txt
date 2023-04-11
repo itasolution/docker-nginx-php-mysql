@@ -1,0 +1,1 @@
+Not published in Nginx, but usefull for reserved data like Nextcloud storage or Laravel framework files.
