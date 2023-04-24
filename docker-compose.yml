@@ -34,6 +34,7 @@ services:
     environment:
       - PMA_ARBITRARY=1
       - PMA_HOST=${MYSQL_HOST}
+      - UPLOAD_LIMIT=100M
     restart: always
     depends_on:
       - mysqldb
